@@ -1,0 +1,15 @@
+-1.8
+-encoding
+UTF-8
+-source
+1.8
+-target
+1.8
+-classpath
+/home/zafar/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/zafar/.m2/repository/org/aspectj/aspectjrt/1.8.2/aspectjrt-1.8.2.jar:/home/zafar/.m2/repository/org/springframework/boot/spring-boot-starter/1.3.5.RELEASE/spring-boot-starter-1.3.5.RELEASE.jar:/home/zafar/.m2/repository/org/springframework/boot/spring-boot/1.3.5.RELEASE/spring-boot-1.3.5.RELEASE.jar:/home/zafar/.m2/repository/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE.jar:/home/zafar/.m2/repository/org/springframework/spring-aop/4.3.9.RELEASE/spring-aop-4.3.9.RELEASE.jar:/home/zafar/.m2/repository/org/springframework/spring-beans/4.3.9.RELEASE/spring-beans-4.3.9.RELEASE.jar:/home/zafar/.m2/repository/org/springframework/spring-expression/4.3.9.RELEASE/spring-expression-4.3.9.RELEASE.jar:/home/zafar/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.3.5.RELEASE/spring-boot-autoconfigure-1.3.5.RELEASE.jar:/home/zafar/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.3.5.RELEASE/spring-boot-starter-logging-1.3.5.RELEASE.jar:/home/zafar/.m2/repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar:/home/zafar/.m2/repository/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar:/home/zafar/.m2/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar:/home/zafar/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar:/home/zafar/.m2/repository/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.jar:/home/zafar/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21.jar:/home/zafar/.m2/repository/org/springframework/spring-core/4.3.9.RELEASE/spring-core-4.3.9.RELEASE.jar:/home/zafar/git/InterThreadCommunication/InterThreadCommunication/target/classes
+-d
+/home/zafar/git/InterThreadCommunication/InterThreadCommunication/target/classes
+/home/zafar/git/InterThreadCommunication/InterThreadCommunication/src/main/java/com/zafar/inter/thread/communication/runnables/TestRunnable.java
+/home/zafar/git/InterThreadCommunication/InterThreadCommunication/src/main/java/com/zafar/inter/thread/communication/Config.java
+/home/zafar/git/InterThreadCommunication/InterThreadCommunication/src/main/java/com/zafar/inter/thread/communication/Driver.java
+/home/zafar/git/InterThreadCommunication/InterThreadCommunication/src/main/java/com/zafar/inter/thread/communication/aspect/HandlerAspect.java
