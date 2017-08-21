@@ -36,6 +36,9 @@ public class Driver {
 					break;				
 			}
 		}
+		synchronized(aspect.monitor){
+			aspect.monitor.notify();
+		}
 		thread.interrupt();
 		
 	}
