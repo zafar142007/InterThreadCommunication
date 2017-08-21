@@ -10,10 +10,10 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class HandlerAspect {
 	
-	public static boolean stop=false;
+	public static volatile boolean stop=false;
 	
 	
-	public static String monitor="";
+	public static volatile String monitor="";
 	
 	@Pointcut("withincode(public void com.zafar.inter.thread.communication.runnables.TestRunnable.run()) "
 			+ "&& call(* *.*(*)) "
