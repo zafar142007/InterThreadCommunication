@@ -20,14 +20,19 @@ public class Driver {
 		TestRunnable runnable = new TestRunnable();
 		Thread thread= new Thread(runnable);
 		thread.start();
-		aspect.waitTime=10000;
+		aspect.monitor="MONITOR";
 		while((i=scanner.nextInt())!=0){
 			switch(i){
 				case 1:	
 					aspect.stop=true;
 					break;
 				case 2:
+					
 					aspect.stop=false;
+					
+					synchronized(aspect.monitor){
+						aspect.monitor.notify();
+					}
 					break;				
 			}
 		}

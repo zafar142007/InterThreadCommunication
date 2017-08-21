@@ -12,8 +12,8 @@ public class HandlerAspect {
 	
 	public static boolean stop=false;
 	
-	public static int waitTime=0;
 	
+	public static String monitor="";
 	
 	@Pointcut("withincode(public void com.zafar.inter.thread.communication.runnables.TestRunnable.run()) "
 			+ "&& call(* *.*(*)) "
@@ -24,8 +24,12 @@ public class HandlerAspect {
 	@Before("stopAspect()") 
     public void beforeAdvice(JoinPoint jp) {
        try {
-    	   System.out.println("Sleeping for "+waitTime);
-    	   Thread.sleep(waitTime);
+    	   System.out.println("Waiting");
+    	   
+    	   synchronized(monitor){
+    		   monitor.wait();
+    	   }
+    	   
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
